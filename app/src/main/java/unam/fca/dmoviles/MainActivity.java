@@ -41,13 +41,20 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Actividades
-        //a) Ejecuta la aplicacion
+        //a) Ejecuta la aplicacion LISTO
         //b) Revisa la referencia y agrega el codigo en el archivo SegundaActividad para que el textview muestre el mensaje que se manda en EXTRA_MESSAGE
         //c) Que otros tipos de datos se pueden mandar?
+            //Además de texto, números, y variables. Ha y funciones que arreojen datos como la fecha.
         //d) Revisa el archivo AdroidManifest.xml, que cambios presenta el archivo respecto al de la actividad 2?
+            //En esta versión ya viene declarada la actividad segunda.
         //e) Anota tus respuestas en un documento en Word
         //f) Sube tu codigo al repositorio.
         //g) Sube el documento en word a la plataforma Moodle con las capturas de pantalla de tu actividad. Incluye la liga a tu repositorio
 
+    }
+
+    /** Called when the user taps the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
     }
 }
